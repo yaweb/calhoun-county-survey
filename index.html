@@ -13,13 +13,8 @@
       border-top: 15px solid #00095b;
     }
 
-    .content {
-      padding: 15px 300px;
-    }
-
     .content img {
       display: block;
-      width: 50%;
       height: auto;
       margin: 0 auto;
     }
@@ -36,10 +31,31 @@
       padding: 1rem 1.5rem;
       margin: 1.6rem 0;
       text-decoration: none!important;
+      border-radius: 50px;
     }
 
     .content btn:hover {
       background-color: #00142e;
+    }
+
+    @media screen and (min-width: 1000px) {
+      .content {
+        padding: 15px 300px;
+      }
+
+      .content img {
+        width: 50%;
+      }
+    }
+
+    @media screen and (max-width: 999px) {
+      .content {
+        padding: 15px 75px;
+      }
+
+      .content img {
+        width: 75%;
+      }
     }
   </style>
 </head>
@@ -51,10 +67,10 @@
     <p>At Ford, we're committed to delivering immediate impact and establishing enduring community support in Calhoun County. Our goal is to be a good neighbor in the communities where our company has operations, to provide economic opportunity, to help move residents upward and forward, and to be a valued partner in building thriving and resilient communities, fostering opportunities for all.</p>
 
     <p>Learn more about our impact across Calhoun County from members of the community in this video.</p>
-    <a class="btn" href="https://vimeo.com/1199520152" target="_blank">Watch The Video (link opens in new tab)</a>
+    <p style="text-align: center;"><br><a class="btn" href="https://vimeo.com/1199520152" target="_blank">Watch The Video (link opens in new tab)</a></p>
 
     <p>Please take a moment to complete our survey (link opens in new tab).</p>
-    <a class="btn" href="https://form.jotform.com/261555061056150" target="_blank">Take The Survey</a>
+    <p style="text-align: center;"><br><a class="btn" href="https://form.jotform.com/261555061056150" target="_blank">Take The Survey (link opens in new tab)</a></p>
   </section>
 
 </body>
